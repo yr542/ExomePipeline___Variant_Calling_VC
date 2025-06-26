@@ -1,1 +1,1 @@
-# ExomePipeline___Variant_Calling_VC
+# Exome Pipeline: Variant Calling (VC)
