@@ -14,7 +14,7 @@ The overall pipeline consists of multiple steps as outlined below:
 | Step 1: PreProcessing        | Preprocessing steps including indexing GVCF files and building a sample map for variant calling |
 | Step 2a: **Variant Calling (VC)**   | Import and merge GVCFs from multiple samples using GenomicsDBImport; perform joint genotyping on the GenomicsDB workspace (For Ensembl, use Step_2a___Part_1___Ensembl_GenomicsDBImport.sh script) |
 | Step 2b: Variant Filtering (VF) | Filter variant calls and select a subset of variants from callset; merge all cohort VCF files into a single VCF file |
-| Step 2c: Quality Control (QC) | Perform quality control on merged VCF file and generate quality control metrics              |
+| Step 2c: Quality Control (QC) | Perform quality control on merged VCF file and generate quality control metrics. Please refer to the [Quality Control](https://github.com/yr542/ExomePipeline___Quality_Control_QC/tree/main) Github repository for details.              |
 | Step 3: ANNOVAR             | Annotate variants with GnomAD4.0                                                             |
 | Step 4: Mendelian Filtering | Perform Mendelian Filtering on variants                                                      |
 | Step 5: Post Processing  | Perform post processing                                                                      |
