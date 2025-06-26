@@ -1,6 +1,6 @@
 # Exome Pipeline: Variant Calling (VC)
 
-# GenomicsDBImport & GenotypeGVCFs Pipeline (Ensembl & UCSC)
+## GenomicsDBImport & GenotypeGVCFs Pipeline (Ensembl & UCSC)
 
 This Docker image provides a streamlined pipeline for joint genotyping of genomic variant data using GATK's **GenomicsDBImport** and **GenotypeGVCFs** tools. It supports both **Ensembl** and **UCSC** reference genome workflows with chromosome-parallel processing.
 
